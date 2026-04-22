@@ -1,49 +1,34 @@
-# 🛒 Paan Palace Online Ordering & Management System
+# ⚛️ React Admin Panel (Vite)
 
-## 📌 Project Description
+This project is a **React-based Admin Dashboard** built using **Vite** for fast development and optimized performance.
 
-This project is a **full-stack web application** designed for managing online paan orders.
-It includes:
+It provides a minimal setup to get React working with:
 
-* User interface for customers
-* Admin panel for management
-* Backend system for handling orders
+* ⚡ Fast Refresh (HMR)
+* 📏 ESLint for code quality
+* 🚀 Optimized build using Vite
 
 ---
 
 ## 🚀 Tech Stack
 
-* ⚛️ React (Frontend)
-* ⚡ Vite (Build Tool)
-* 🟢 Node.js / Backend
-* 🗄️ Database (MySQL / MongoDB)
+* React.js
+* Vite
+* JavaScript
+* ESLint
 
 ---
 
-## ✨ Features
+## 🔌 Plugins Used
 
-* 🧾 Online order placement
-* 📦 Order management system
-* 👨‍💼 Admin dashboard
-* 🔐 Authentication system
-* 📊 Real-time updates
+Currently, two official plugins are available:
 
----
-
-## 📂 Project Structure
-
-* `React-admin/` → Admin panel
-* `User-Interface/` → Customer UI
-* `paan-backend/` → Backend APIs
+* `@vitejs/plugin-react` → Uses **Babel** for Fast Refresh
+* `@vitejs/plugin-react-swc` → Uses **SWC** for faster compilation
 
 ---
 
-## 🛠️ Installation & Setup
-
-```bash
-git clone https://github.com/Vasudhalohar27/Paan-Palace-Online-Ordering-and-Management-System.git
-cd Paan-Palace-Online-Ordering-and-Management-System
-```
+## 🛠️ Development Setup
 
 ### Install dependencies
 
@@ -51,7 +36,7 @@ cd Paan-Palace-Online-Ordering-and-Management-System
 npm install
 ```
 
-### Run project
+### Run development server
 
 ```bash
 npm run dev
@@ -59,21 +44,41 @@ npm run dev
 
 ---
 
-## 📸 Screenshots
+## 📦 Build for Production
 
-(Add screenshots here later)
-
----
-
-## 👩‍💻 Author
-
-**Vasudha Lohar**
+```bash
+npm run build
+```
 
 ---
 
-## 💡 Future Improvements
+## 🔍 Preview Build
 
-* Payment integration
-* Notification system
-* Mobile app version
+```bash
+npm run preview
+```
+
+---
+
+## 📏 ESLint Configuration
+
+This project includes basic ESLint setup for maintaining code quality.
+
+For production-level applications:
+
+* Consider using **TypeScript**
+* Enable **type-aware lint rules**
+* Use `typescript-eslint` for better code safety
+
+---
+
+## 💡 Notes
+
+* Vite provides faster startup and hot reload compared to traditional tools
+* Suitable for scalable admin dashboards
+* Easily extendable with libraries like React Router, Axios, etc.
+
+---
+
+
 
